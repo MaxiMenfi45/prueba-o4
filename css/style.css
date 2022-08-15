@@ -5,6 +5,22 @@
     box-sizing: border-box;
 }
 
+.img-nosotros{
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes animacion{
+    0%{
+        background-color: black;
+
+    }
+    100%{
+        background-color: aqua;
+    }
+ }
+ 
+
 /*Estilos Generales*/
 
 body{
